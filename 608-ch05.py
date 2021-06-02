@@ -36,7 +36,26 @@ tuple1 =(10,20)
 tuple2 =(30,40)
 tuple1+=tuple2
 print("Appending a tuple to another, tuple1+=tuple2)",tuple1)
+student_tuple = ()
+print("student_tuple = ('Amanda', [98,85,87])")
+student_tuple = ('Amanda',[98,85,87])
 print("The first item of student_tuple is: ",student_tuple[0])
+
+first_name, grades = student_tuple
+print("first name is ", first_name)
+print("grades are ", grades)
+"""Displaying a Bar Chart"""
+numbers = [19,3,15,7,11]
+
+print('\nCreating a bar charg from numbers:')
+print(f'Index{"Value":>8}    Bar')
+
+for index,value in enumerate(numbers):
+    print(f'{index:>5}{value:>8}    {"*" * value}')
+
+
+
+
 
 
 
