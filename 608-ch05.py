@@ -107,8 +107,26 @@ print("numbers back to original: ",numbers)
 print("numbers using sorted()", sorted(numbers))
 print("numbers after sorted",numbers)
 
+print("foods = ['Cookies', 'pizza', 'Grapes', 'apples','steak','Bacon']")
+foods = ['Cookies','pizza','Grapes','apples','steak','Bacon']
 
+print("foods.sort()")
+foods.sort()
+print("foods sorted: ",foods)
 
+print('numbers = [3,7,1,9,4,2,8,5,6]')
+numbers = [3,7,1,9,4,2,8,5,6]
+print("numbers = ",numbers)
+print('numbers index of 5 is ',numbers.index(5))
+
+print("1000  in numbers?",1000 in numbers)
+print("5 in numbers? ",5 in numbers )
+print("All the values in this list is positve any(numbers)<0: ", any(numbers)>0)
+print("There are no negative values in the list all(numbers),0: ",all(numbers)>0)
+
+print("list2 = [item for item in range(1,600)]")
+list2 = [item for item in range(1,600)]
+print("list2 =", list2)
 
 
 
