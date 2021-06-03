@@ -53,6 +53,62 @@ print(f'Index{"Value":>8}    Bar')
 for index,value in enumerate(numbers):
     print(f'{index:>5}{value:>8}    {"*" * value}')
 
+print("numbers = list(range(1,16))")
+numbers = list(range(1,16))
+print("numbers = ", numbers)
+
+print("numbers[1:len(numbers):2]")
+numbers[1:len(numbers):2]
+print("numbers after slice: ",numbers)
+
+print("numbers[5:10] = [0] * len (numbers[5:10])")
+numbers[5:10] = [0] *len(numbers[5:10])
+print("numbers",numbers)
+
+print("numbers[5:] = []")
+numbers[5:] = []
+print("numbers =",numbers)
+
+print("numbers[:] = []")
+numbers[:] = []
+print("numbers = ",numbers)
+
+print("numbers = list(range(0,10))")
+numbers=list(range(0,10))
+
+print("numbers = ",numbers)
+
+print("del numbers[-1]")
+del numbers[-1]
+
+print("numbers = ",numbers)
+
+print("del numbers[0:2]")
+del numbers[0:2]
+print("numbers = ", numbers)
+
+print("passing a list to a function")
+def modify_elements(items):
+    for i in range(len(items)):
+        items[i] *=2
+numbers = [10,3,7,1,9]
+print("numbers before modify_elements", numbers)
+modify_elements(numbers)
+print("Numbers after modify_elements", numbers)
+
+numbers = [10,3,7,1,9,4,2,8,5,6]
+print("numbers unsorted: ",numbers)
+numbers.sort()
+print("numbers sorted:",numbers)
+numbers.sort(reverse=True)
+print("numbers reverse sorted: ",numbers)
+numbers = [10,3,7,1,9,4,2,8,5,6]
+print("numbers back to original: ",numbers)
+print("numbers using sorted()", sorted(numbers))
+print("numbers after sorted",numbers)
+
+
+
 
 
 
