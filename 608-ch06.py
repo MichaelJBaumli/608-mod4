@@ -50,6 +50,7 @@ ethics.close()
 
 
 
+<<<<<<< HEAD
 print("Working with Sets")
 colors = {'red','orange','yellow','green','red','blue'}
 print("colors = {'red','orange','yellow','green','red','blue'}")
@@ -70,3 +71,5 @@ set(numbers)
 print("set(numbers =",set(numbers))
 
 print(set())
+=======
+>>>>>>> c0191d645eff6d3cc97fd482c5bccfe0c36fed94
